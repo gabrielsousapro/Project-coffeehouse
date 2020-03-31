@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/reset.css">
+    <link rel="stylesheet" href="_css/style.css">
+    <title>Coffee House | Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top nav menu -->
+    <header class="header" id="home">
+        <nav>
+            <ul class="menu-row text-align-center uppercase">
+                <a href="#home">
+                    <li class="menu-btn m01">Home</li>
+                </a>
+                <a href="#about">
+                    <li class="menu-btn m02">About</li>
+                </a>
+                <a href="#menu">
+                    <li class="menu-btn m03">Menu</li>
+                </a>
+                <a href="#where">
+                    <li class="menu-btn m4">Where</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Header with image -->
+    <main class="main">
+        <span class="time">
+            Open from 6am to 5pm
+        </span>
+
+        <h1 class="main-name text-align-center">
+            <span class="name-br">the</span> 
+            <span class="name-br">Cafe</span>
+        </h1>
+
+        <span class="adress">
+            15 Adr street, 5015
+        </span>
+    </main>
+
+    <!-- add a background color and large text to the whole page -->
+    <section class="main-content middle">
+        <!-- About container -->
+        <div class="row about">
+            <div class="text-align-center" id="about">
+                <h2 class="title uppercase">
+                    About the cafe
+                </h2>
+            </div>
+
+            <p>
+                The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <p>
+                In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.
+            </p>
+
+            <div class="quote">
+                <blockquote>
+                    "Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.
+                    <br> <br>
+                    Chef, Coffeeist and Owner: <strong>Liam Brown</strong>
+                </blockquote>
+                
+            </div>
+
+            <img src="_img/coffeeshop.jpg" alt="">
+
+            <p>
+                <strong>Opening hours:</strong>
+                everyday from 6am to 5pm
+            </p>
+
+            <p>
+                <strong>Address:</strong>
+                15 Adr street, 5015, NY
+            </p>
+        </div>
+
+        <!-- menu container -->
+        <div class="row menu">
+            <div class="text-align-center" id="menu">
+                <h2 class="title uppercase">
+                    The menu
+                </h2>
+            </div>
+
+            <div class="tab text-align-center">
+                <button onclick="food('food')">Eat</button>
+                <button onclick="food('food02')">Drink</button>    
+            </div>
+
+            <div id="food" class="tablink">
+                <h3>Bread Basket</h3>
+                <p>
+                    Assortment of fresh baked fruit breads and muffins 5.50
+                </p>
+
+                <h3>Honey Almond Granola with Fruits</h3>
+                <p>
+                    Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
+                </p>
+
+                <h3>Belgian Waffle</h3>
+                <p>
+                    Vanilla flavored batter with malted flour 7.50
+                </p>
+
+                <h3>Scrambled eggs</h3>
+                <p>
+                    Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+                </p>
+
+                <h3>Blueberry Pancakes</h3>
+                <p>
+                    With syrup, butter and lots of berries 8.50
+                </p>
+            </div>
+
+            <div id ="food02" class="tablink" style="display: none;">
+                <h3>Coffee</h3>
+                <p>
+                    Regular coffee 2.50
+                </p>
+                
+                <h3>Chocolato</h3>
+                <p>
+                    Chocolate espresso with milk 4.50
+                </p>
+                
+                <h3>Corretto</h3>
+                <p>
+                    Whiskey and coffee 5.00
+                </p>
+                
+                <h3>Iced tea</h3>
+                <p>
+                    Hot tea, except not hot 3.00
+                </p>
+                
+                <h3>Soda</h3>
+                <p>
+                    Coke, Sprite, Fanta, etc. 2.50
+                </p>
+            </div>
+        </div>
+
+        <!-- coffee image -->
+        <img src="_img/coffeehouse2.jpg" alt="" class="coffee-img">
+
+        <!-- where/contact container -->
+        <div class="row where">
+            <div class="text-align-center" id="where">
+                <h2 class="title uppercase">Where to find us</h2>
+            </div>
+            <p>
+                Find us at some address at some place.
+            </p>
+
+            <img src="_img/map.jpg" alt="" class="where-img">
+        
+            <p>
+            <span class="fyi">FYI!</span>
+                We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.
+            </p>
+            <p>
+                <strong>Reserve</strong>
+                a table, ask for today's special or just send us a message:
+            </p>
+        </div>
+
+        <!-- contact form -->
+        <form action="" class="c-form">
+            <input type="text" placeholder="Name" name="name">
+
+            <input type="number" placeholder="How many people" name="people">
+
+            <input type="datetime-local" placeholder="
+            Date and time" name="date" value="2017-11-16T20:00">
+
+            <input type="text" placeholder="Message \ Special requirements" name="message">
+
+            <button type="submit" class="uppercase">Send message</button>
+        </form>
+
+        <!-- End page content -->
+        
+        <!-- footer  -->
+    </section>
+    
+    <footer>
+            <p class="middle text-align-center">
+                Powered by
+                <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank">w3.css</a>
+            </p>
+    </footer>
+
+    <script>
+        function food(food) {
+        var i;
+        var x = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(food).style.display = "block";
+        
+        }
+    </script>
+
+</body>
+</html>
