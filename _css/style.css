@@ -113,7 +113,6 @@ img {
 
 .main {
     box-sizing: inherit;
-    display: block;
     min-height: 75%;
     background-size: cover;
     background-image: url(../_img/coffeehouse.jpg);
@@ -126,7 +125,11 @@ img {
     position: absolute;
     left: 0;
     bottom: 0;
-    background-color: #000
+    background-color: #000;
+    padding: 0 8px;
+    margin: 12px 24px;
+    display: inline-block;
+    color: #fff;
 }
 
 .main-name {
@@ -148,7 +151,6 @@ img {
     bottom: 0;
 }
 
-.time,
 .adress {
     padding: 0 8px;
     margin: 12px 24px;
@@ -234,7 +236,7 @@ div .title {
     padding: 8px 16px;
 }
 
-.tab #first-tab {
+#first-tab {
     background-color: #000;
     color: whitesmoke;
 }
@@ -310,4 +312,14 @@ footer p a{
 
 footer p a:hover {
     color: rgb(42, 177, 42);
+}
+
+/************ 11. media queries ************ 
+*/
+
+ @media only screen and (max-width: 400px) {
+    .time {
+        color: red;
+        display: none;
+    }
 }
