@@ -86,7 +86,6 @@ img {
 .menu-row a:hover {
     color: #000;
     background-color: #ccc;
-    transition: 200ms;
 }
 
 .menu-btn {
@@ -163,7 +162,7 @@ img {
 
 .main-content {
     width: 100%;
-    max-width: 798px;
+    max-width: 730px;
     padding: 0 15px 60px 15px;
     background-color: #fdf5e6;
     filter: grayscale(75%);
@@ -221,10 +220,11 @@ div .title {
 .tab {
     box-shadow: 0 0 5px 0 rgba(0,0,0,0.16),0 0 10px 0 rgba(0,0,0,0.12);
     overflow: hidden;
+    padding: 8px 16px;
 }
 
 .tab button {
-    font-size: 18px;
+    font-size: 16px;
     width: 50%;
     float: left;
     text-decoration: none;
@@ -233,11 +233,12 @@ div .title {
     border: none;
     background-color: whitesmoke;
     letter-spacing: 2px;
-    padding: 8px 16px;
+    cursor: pointer;
+    padding: 4px 0;
 }
 
 #first-tab {
-    background-color: #000;
+    background-color: #606060;
     color: whitesmoke;
 }
 
