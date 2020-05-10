@@ -8,7 +8,7 @@
 
 ## Desktop version
 
-![](_img/readme-img-desktop.png)
+![](_img/readme-img-desktop.gif)
 
 ## Tablet version
 
