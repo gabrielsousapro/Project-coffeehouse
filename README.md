@@ -1,4 +1,4 @@
-<h1 align="center">Project-coffeehouse Website Layout</h1>
+<h1 align="center">Project-coffeehouse Website Layout<br><br></h1>
  
  <p align="center">
   <img alt="html" src="https://img.shields.io/badge/HTML-52.3%25-green">
@@ -9,7 +9,9 @@
  </p>
  
 <p align="center">
+ <br>
   This is a replica of the [coffeehouse](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_cafe) website layout from [W3School]  (https://www.w3schools.com/default.asp).
+ <br><br><br><br>
 </p>
  
 <p align="center">
