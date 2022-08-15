@@ -116,7 +116,7 @@ img {
     box-sizing: inherit;
     min-height: 75%;
     background-size: cover;
-    background-image: url(../_img/coffeehouse.jpg);
+    background-image: url(../img/coffeehouse.jpg);
     background-position: center;
     filter: grayscale(50%);
     position: relative;
