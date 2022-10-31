@@ -10,7 +10,7 @@
  </p>
  
 <p align="center">
-  <img src="https://github.com/gabrielsousapro/project-coffeehouse/blob/master/_img/readme-img-desktop.gif" alt="Sublime's custom image"/>
+  <img src="https://github.com/gabrielsousapro/project-coffeehouse/blob/master/img/readme-img-desktop.gif" alt="Sublime's custom image"/>
 </p>
  
 <p>
