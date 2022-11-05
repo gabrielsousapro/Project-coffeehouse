@@ -1,22 +1,60 @@
-<h1 align="center">Project-coffeehouse Website Layout</h1>
- 
- <p align="center">
-  <img alt="html" src="https://img.shields.io/badge/HTML-52.3%25-green">
-  <img alt="css" src="https://img.shields.io/badge/CSS-44.3%25-blue">
-  <img alt="javascript" src="https://img.shields.io/badge/Javascript-3.4%25-important">
-  <img alt="MIT licence" src="https://img.shields.io/badge/licence-MIT-red">
-  <img alt="last commit" src="https://img.shields.io/badge/last%20commit-august-blueviolet">
-  <br>
- </p>
- 
-<p align="center">
-  <img src="https://github.com/gabrielsousapro/project-coffeehouse/blob/master/_img/readme-img-desktop.gif" alt="Sublime's custom image"/>
-</p>
- 
-<p>
- <h2>About</h2>
- This is a project of a sample cafeteria website layout from cafeteria layout designed from the W3school, and I recreated it for study proporses, just as a exercise to improve my skills.
-</p>
+<h1 align="center">Project Coffeehouse</h1>
+
+<div align="center">
+   Solution for a challenge from  <a href="https://www.w3schools.com/" target="_blank">W3School</a>.
+</div>
+
+<div align="center">
+  <h3>
+    <a target="_blank" href="https://gabrielsousapro.github.io/project-coffeehouse/">
+      Demo
+    </a>
+    <span> | </span>
+    <a target="_blank" href="https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_cafe">
+      Challenge
+    </a>
+  </h3>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+## Table of Contents
+
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [Features](#features)
+- [Contact](#contact)
+- [License](#license)
+
+<!-- OVERVIEW -->
+
+## Overview
+
+![screenshot](img/readme-img-desktop.gif)
+A project of a sample cafeteria website from [W3School](https://www.w3schools.com/).
+
+
+
+### Built With
+
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+
+- HTML 5
+- CSS
+- JS
+
+## Features
+
+<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+
+This is a project of a sample cafeteria website designed from the W3school, and I recreated it for study purposes, just as a exercise to improve my front-end skills.
+
+## Contact
+
+- GitHub [@gabrielsousapro](https://{github.com/gabrielsousapro})
+- Twitter [Gabriel23101364](https://twitter.com/Gabriel23101364)
+- E-mail sousadev.pro@gmail.com
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+
+- [MIT](https://choosealicense.com/licenses/mit/)
